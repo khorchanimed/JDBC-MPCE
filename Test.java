@@ -13,7 +13,7 @@ public class Test {
 		  ArticleDB.ajouterArticle(a3);
 		 
 		
-		ArticleDB.supprimerArticle(5) ;
+		ArticleDB.supprimerArticle(2) ;
 		
 		for(Article a : ArticleDB.getAllArticles())
 			System.out.println(a.toString());
